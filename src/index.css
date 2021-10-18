@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(#56ccf2, #2f80ed);
+  background-attachment: fixed;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.row {
+  height: 90vh;
+}
+
+.sidebar {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  padding: 15px 25px;
+  box-shadow: 0 0 10px black;
+}
+
+.main {
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px 25px;
+  box-shadow: 0 0 10px black;
+  height: 200%;
+}
+
+.sidebarName {
+  text-align: center;
+  font-weight: bold;
+}
+
+.sidebarItem {
+  text-align: center;
+}
+
+.sidebarImg {
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: 120px;
+  border-radius: 50px;
+  object-fit: contain;
+}
+
+figure img {
+  padding-left: 5px;
+}
+
+figure img:hover {
+  width: 40px;
+  height: 40px;
+}
+
+.sidebarLocation {
+  font-family: "Hind", sans-serif;
+  margin-top: 25px;
+}
+
+.sidebarContact {
+  font-family: "Hind", sans-serif;
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+.sidebarContact span {
+  padding-left: 6px;
+}
+
+.sidebarEmail {
+  background-image: linear-gradient(#56ccf2, #2f80ed);
+  border-radius: 30px;
+  color: white;
+  margin: 15px 25px 25px;
+  width: 135px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2px solid #56ccf2;
+}
+
+/* Navbar */
+
+.row {
+  margin-top: 15px;
+}
+
+.NavItems {
+  /* display: flex; 
+  margin-left: 515px; */
+  margin-top: -45px;
+}
+
+.active {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+  border-bottom: 4px solid #2f80ed;
+  cursor: pointer;
+}
+
+.NavItem {
+  margin-right: -7px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #354358;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.NavItem:hover {
+  background: -webkit-linear-gradient(#56ccf2, #2f80ed);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  margin-top: -40px;
+}
+
+.AboutIntro {
+  background-image: linear-gradient(90deg, #00f260, #0575e6);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.Head {
+  font-size: 1.3rem;
+}
+
+.skillCard {
+  background-color: #d9d9d9;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.skillBody {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.skillIcon {
+  width: 130px;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillTitle {
+  font-size: 25px;
+  color: #2f80ed;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillAbout {
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Resume */
+.resume {
+  padding-top: 20px;
+}
+
+.resumeLangHead {
+  margin-left: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #354538;
+}
+
+.resumeLang {
+  margin-left: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #354538;
+}
+
+.resumeLangBody {
+  margin-top: 10px;
+}
+
+.resumeTitle {
+  font-weight: 700;
+}
+
+.resumeCardName {
+  font-size: 16px;
+}
+
+/* bar */
+
+.Bar {
+  width: 90%;
+  background-color: #f1f2f3;
+  border-radius: 20px;
+}
+
+.barIcon {
+  width: 35px;
+  height: 35px;
+}
+
+.barWrapper {
+  background-image: linear-gradient(90deg, #00f260, #0575e6);
+  width: 400px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 10px;
+  padding: 15px;
+  margin-left: 1px;
+  height: 35px;
+}
+
+.barName {
+  font-size: 1.4rem;
+  position: relative;
+  top: -14px;
+}
+
+/* projects */
+
+.projectHead {
+  background-image: linear-gradient(90deg, #00f260, #0575e6);
+  width: 350px;
+  border-radius: 20px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectIntro {
+  color: white;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+.projectBody {
+  margin: 20px;
+}
+
+.head {
+  font-size: 2.3rem;
+  font-size: 30px;
+}
+
+.para {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.pro {
+  background-color: #d9d9d9;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.proBody {
+  padding-top: 10px;
+}
+
+.pro img {
+  margin-left: 10px;
+  width: 50%;
+  border-radius: 10px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+}
+
+.proHead {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.proDes {
+  margin-left: 10px;
+}
